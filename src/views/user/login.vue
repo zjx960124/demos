@@ -1,5 +1,5 @@
 <template>
-   <div class="wrapper">111111111111</div>
+   <div class="wrapper">登陆页面</div>
 </template>
 
 <script>
