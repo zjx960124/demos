@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import items from '@/router/items'
+import configRouters from "./module";
+import login from '@/views/user/login'
+
+console.log(configRouters)
 
 Vue.use(Router)
 
@@ -8,16 +11,9 @@ export default new Router({
   routes: [
     {
       path: '/',
-      // name: 'index',
-      redirect:{
-        name:'index'
-      }
+      name: 'login',
+      component: login
     },
-    {
-      path:'/index',
-      name:'index',
-      component: () => import('@/components/index/index')
-    },
-    ...items
+    ...configRouters
   ]
 })
