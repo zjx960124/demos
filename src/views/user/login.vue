@@ -63,7 +63,7 @@
           dataFormSubmit() {
             this.$refs['datafForm'].validate( (valid) => {
               if(valid){
-                
+
               }
             })
           }

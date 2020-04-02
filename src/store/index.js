@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import login from '../strore/module/login'
+import login from './module/login'
 
 Vue.use(Vuex)
 
